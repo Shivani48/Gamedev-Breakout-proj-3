@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2995CE22221E97A00DE7F89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2995CE12221E97A00DE7F89 /* AppDelegate.swift */; };
+		E2995CE42221E97A00DE7F89 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E2995CE32221E97A00DE7F89 /* GameScene.sks */; };
+		E2995CE62221E97A00DE7F89 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E2995CE52221E97A00DE7F89 /* Actions.sks */; };
+		E2995CE82221E97A00DE7F89 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2995CE72221E97A00DE7F89 /* GameScene.swift */; };
+		E2995CEA2221E97A00DE7F89 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2995CE92221E97A00DE7F89 /* GameViewController.swift */; };
+		E2995CED2221E97A00DE7F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2995CEB2221E97A00DE7F89 /* Main.storyboard */; };
+		E2995CEF2221E97A00DE7F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2995CEE2221E97A00DE7F89 /* Assets.xcassets */; };
+		E2995CF22221E97A00DE7F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2995CF02221E97A00DE7F89 /* LaunchScreen.storyboard */; };
+		E2995CFD2221E97A00DE7F89 /* BrekoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2995CFC2221E97A00DE7F89 /* BrekoutTests.swift */; };
+		E2995D082221E97A00DE7F89 /* BrekoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2995D072221E97A00DE7F89 /* BrekoutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2995CF92221E97A00DE7F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2995CD62221E97A00DE7F89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2995CDD2221E97A00DE7F89;
+			remoteInfo = Brekout;
+		};
+		E2995D042221E97A00DE7F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2995CD62221E97A00DE7F89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2995CDD2221E97A00DE7F89;
+			remoteInfo = Brekout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2995CDE2221E97A00DE7F89 /* Brekout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brekout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2995CE12221E97A00DE7F89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2995CE32221E97A00DE7F89 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E2995CE52221E97A00DE7F89 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		E2995CE72221E97A00DE7F89 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E2995CE92221E97A00DE7F89 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E2995CEC2221E97A00DE7F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2995CEE2221E97A00DE7F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2995CF12221E97A00DE7F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2995CF32221E97A00DE7F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2995CF82221E97A00DE7F89 /* BrekoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrekoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2995CFC2221E97A00DE7F89 /* BrekoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrekoutTests.swift; sourceTree = "<group>"; };
+		E2995CFE2221E97A00DE7F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2995D032221E97A00DE7F89 /* BrekoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrekoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2995D072221E97A00DE7F89 /* BrekoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrekoutUITests.swift; sourceTree = "<group>"; };
+		E2995D092221E97A00DE7F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2995CDB2221E97A00DE7F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2995CF52221E97A00DE7F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2995D002221E97A00DE7F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2995CD52221E97A00DE7F89 = {
+			isa = PBXGroup;
+			children = (
+				E2995CE02221E97A00DE7F89 /* Brekout */,
+				E2995CFB2221E97A00DE7F89 /* BrekoutTests */,
+				E2995D062221E97A00DE7F89 /* BrekoutUITests */,
+				E2995CDF2221E97A00DE7F89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2995CDF2221E97A00DE7F89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2995CDE2221E97A00DE7F89 /* Brekout.app */,
+				E2995CF82221E97A00DE7F89 /* BrekoutTests.xctest */,
+				E2995D032221E97A00DE7F89 /* BrekoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2995CE02221E97A00DE7F89 /* Brekout */ = {
+			isa = PBXGroup;
+			children = (
+				E2995CE12221E97A00DE7F89 /* AppDelegate.swift */,
+				E2995CE32221E97A00DE7F89 /* GameScene.sks */,
+				E2995CE52221E97A00DE7F89 /* Actions.sks */,
+				E2995CE72221E97A00DE7F89 /* GameScene.swift */,
+				E2995CE92221E97A00DE7F89 /* GameViewController.swift */,
+				E2995CEB2221E97A00DE7F89 /* Main.storyboard */,
+				E2995CEE2221E97A00DE7F89 /* Assets.xcassets */,
+				E2995CF02221E97A00DE7F89 /* LaunchScreen.storyboard */,
+				E2995CF32221E97A00DE7F89 /* Info.plist */,
+			);
+			path = Brekout;
+			sourceTree = "<group>";
+		};
+		E2995CFB2221E97A00DE7F89 /* BrekoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2995CFC2221E97A00DE7F89 /* BrekoutTests.swift */,
+				E2995CFE2221E97A00DE7F89 /* Info.plist */,
+			);
+			path = BrekoutTests;
+			sourceTree = "<group>";
+		};
+		E2995D062221E97A00DE7F89 /* BrekoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2995D072221E97A00DE7F89 /* BrekoutUITests.swift */,
+				E2995D092221E97A00DE7F89 /* Info.plist */,
+			);
+			path = BrekoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2995CDD2221E97A00DE7F89 /* Brekout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2995D0C2221E97A00DE7F89 /* Build configuration list for PBXNativeTarget "Brekout" */;
+			buildPhases = (
+				E2995CDA2221E97A00DE7F89 /* Sources */,
+				E2995CDB2221E97A00DE7F89 /* Frameworks */,
+				E2995CDC2221E97A00DE7F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brekout;
+			productName = Brekout;
+			productReference = E2995CDE2221E97A00DE7F89 /* Brekout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2995CF72221E97A00DE7F89 /* BrekoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2995D0F2221E97A00DE7F89 /* Build configuration list for PBXNativeTarget "BrekoutTests" */;
+			buildPhases = (
+				E2995CF42221E97A00DE7F89 /* Sources */,
+				E2995CF52221E97A00DE7F89 /* Frameworks */,
+				E2995CF62221E97A00DE7F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2995CFA2221E97A00DE7F89 /* PBXTargetDependency */,
+			);
+			name = BrekoutTests;
+			productName = BrekoutTests;
+			productReference = E2995CF82221E97A00DE7F89 /* BrekoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2995D022221E97A00DE7F89 /* BrekoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2995D122221E97A00DE7F89 /* Build configuration list for PBXNativeTarget "BrekoutUITests" */;
+			buildPhases = (
+				E2995CFF2221E97A00DE7F89 /* Sources */,
+				E2995D002221E97A00DE7F89 /* Frameworks */,
+				E2995D012221E97A00DE7F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2995D052221E97A00DE7F89 /* PBXTargetDependency */,
+			);
+			name = BrekoutUITests;
+			productName = BrekoutUITests;
+			productReference = E2995D032221E97A00DE7F89 /* BrekoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2995CD62221E97A00DE7F89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Shivani Dhanasamy";
+				TargetAttributes = {
+					E2995CDD2221E97A00DE7F89 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E2995CF72221E97A00DE7F89 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E2995CDD2221E97A00DE7F89;
+					};
+					E2995D022221E97A00DE7F89 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E2995CDD2221E97A00DE7F89;
+					};
+				};
+			};
+			buildConfigurationList = E2995CD92221E97A00DE7F89 /* Build configuration list for PBXProject "Brekout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2995CD52221E97A00DE7F89;
+			productRefGroup = E2995CDF2221E97A00DE7F89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2995CDD2221E97A00DE7F89 /* Brekout */,
+				E2995CF72221E97A00DE7F89 /* BrekoutTests */,
+				E2995D022221E97A00DE7F89 /* BrekoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2995CDC2221E97A00DE7F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2995CED2221E97A00DE7F89 /* Main.storyboard in Resources */,
+				E2995CE42221E97A00DE7F89 /* GameScene.sks in Resources */,
+				E2995CEF2221E97A00DE7F89 /* Assets.xcassets in Resources */,
+				E2995CF22221E97A00DE7F89 /* LaunchScreen.storyboard in Resources */,
+				E2995CE62221E97A00DE7F89 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2995CF62221E97A00DE7F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2995D012221E97A00DE7F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2995CDA2221E97A00DE7F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2995CE82221E97A00DE7F89 /* GameScene.swift in Sources */,
+				E2995CEA2221E97A00DE7F89 /* GameViewController.swift in Sources */,
+				E2995CE22221E97A00DE7F89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2995CF42221E97A00DE7F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2995CFD2221E97A00DE7F89 /* BrekoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2995CFF2221E97A00DE7F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2995D082221E97A00DE7F89 /* BrekoutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2995CFA2221E97A00DE7F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2995CDD2221E97A00DE7F89 /* Brekout */;
+			targetProxy = E2995CF92221E97A00DE7F89 /* PBXContainerItemProxy */;
+		};
+		E2995D052221E97A00DE7F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2995CDD2221E97A00DE7F89 /* Brekout */;
+			targetProxy = E2995D042221E97A00DE7F89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2995CEB2221E97A00DE7F89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2995CEC2221E97A00DE7F89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2995CF02221E97A00DE7F89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2995CF12221E97A00DE7F89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2995D0A2221E97A00DE7F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2995D0B2221E97A00DE7F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2995D0D2221E97A00DE7F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Brekout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs.bing.Brekout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E2995D0E2221E97A00DE7F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Brekout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs.bing.Brekout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E2995D102221E97A00DE7F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BrekoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs.bing.BrekoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brekout.app/Brekout";
+			};
+			name = Debug;
+		};
+		E2995D112221E97A00DE7F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BrekoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs.bing.BrekoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brekout.app/Brekout";
+			};
+			name = Release;
+		};
+		E2995D132221E97A00DE7F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BrekoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs.bing.BrekoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Brekout;
+			};
+			name = Debug;
+		};
+		E2995D142221E97A00DE7F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BrekoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs.bing.BrekoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Brekout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2995CD92221E97A00DE7F89 /* Build configuration list for PBXProject "Brekout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2995D0A2221E97A00DE7F89 /* Debug */,
+				E2995D0B2221E97A00DE7F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2995D0C2221E97A00DE7F89 /* Build configuration list for PBXNativeTarget "Brekout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2995D0D2221E97A00DE7F89 /* Debug */,
+				E2995D0E2221E97A00DE7F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2995D0F2221E97A00DE7F89 /* Build configuration list for PBXNativeTarget "BrekoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2995D102221E97A00DE7F89 /* Debug */,
+				E2995D112221E97A00DE7F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2995D122221E97A00DE7F89 /* Build configuration list for PBXNativeTarget "BrekoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2995D132221E97A00DE7F89 /* Debug */,
+				E2995D142221E97A00DE7F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2995CD62221E97A00DE7F89 /* Project object */;
+}

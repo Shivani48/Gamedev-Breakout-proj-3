@@ -20,4 +20,10 @@ class GameScene: SKScene {
         // 4
         addChild(player)
     }
+    func random() -> CGFloat {
+        return CGFloat(
+    }
+    func random(min: CGFloat, max: CGFloat) -> CGFloat{
+        return random() * (max - min) + min
+    }
 }

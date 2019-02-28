@@ -18,6 +18,11 @@ class GameOver: GKState {
   }
   
   override func didEnter(from previousState: GKState?) {
+    if previousState is Playing {
+        let ball = scene.childNode(withName: BallCategoryName) as! SKSpriteNode
+        ball.physicsBody!.linearDamping = 1.0
+        scene.physicsWorld.gravity = CGVector(dx: 0.0, dy: -9.8)
+    }
 
   }
   
